@@ -1,0 +1,20 @@
+{
+  "name": "cypress-e2e-api-automation-framework",
+  "version": "1.0.0",
+  "description": "Enterprise End-to-End and API Automation Framework using Cypress, TypeScript, and Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "cypress run --spec 'cypress/e2e/e2e-checkout.cy.ts'",
+    "test:api": "cypress run --spec 'cypress/e2e/api-users.cy.ts'",
+    "test:all": "cypress run --browser chrome --headless"
+  },
+  "keywords": ["cypress", "automation", "e2e", "api", "typescript"],
+  "author": "Dhwani Parikh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "typescript": "^5.4.5"
+  }
+}
