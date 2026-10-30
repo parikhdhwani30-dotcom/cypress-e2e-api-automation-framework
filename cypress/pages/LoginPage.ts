@@ -25,3 +25,4 @@ export class LoginPage {
     this.getLoginButton().click();
   }
 }
+

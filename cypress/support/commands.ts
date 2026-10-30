@@ -11,3 +11,4 @@ Cypress.Commands.add('loginViaUI', (username: string, pass: string) => {
   cy.get('#password').type(pass);
   cy.get('#login-button').click();
 });
+

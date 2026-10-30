@@ -31,3 +31,4 @@ describe('SauceDemo E-Commerce End-to-End Suite', () => {
     inventoryPage.getCartBadge().should('be.visible').and('have.text', '1');
   });
 });
+

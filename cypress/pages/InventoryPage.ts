@@ -23,3 +23,4 @@ export class InventoryPage {
     this.getCartLink().click();
   }
 }
+

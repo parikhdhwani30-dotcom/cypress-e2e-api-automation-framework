@@ -71,3 +71,4 @@ npm run test:api
 ```bash
 npm run cypress:open
 ```
+
